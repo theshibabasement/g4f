@@ -87,4 +87,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 ADD --chown=$G4F_USER:$G4F_USER g4f $G4F_DIR/g4f
 
 # Expose ports
-EXPOSE 8080 1337
+EXPOSE 8089 1337
